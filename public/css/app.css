@@ -1,0 +1,63 @@
+section.ms_main-sect {
+  background-color: black;
+}
+section.ms_main-sect div.ms_main-contents {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+
+section.ms_bottom-main {
+  background-color: #0A7CEC;
+}
+section.ms_bottom-main div.container {
+  display: flex;
+}
+section.ms_bottom-main div.container div.ms_bottom-main-bar {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+section.ms_bottom-main div.container div.ms_bottom-main-bar div {
+  color: white;
+  text-align: center;
+  margin: 0 15px;
+}
+section.ms_bottom-main div.container div.ms_bottom-main-bar div img {
+  height: 45px;
+  margin-right: 10px;
+}
+section.ms_bottom-main div.container div.ms_bottom-main-bar h3 {
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+section.ms_jumpo-img {
+  height: 450px;
+  background-image: url("../assets/img/jumbotron.jpg");
+  background-size: cover;
+}
+
+div.ms_card-img img {
+  height: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  padding: 12px;
+}
+
+div.ms_dc-card {
+  width: 16.6666666667%;
+}
+div.ms_dc-card h5 {
+  color: white;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  width: 80%;
+}
