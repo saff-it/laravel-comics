@@ -8,13 +8,14 @@
 
     <div class="container ms_main-contents">
 
+        @foreach ($comics as $comic)
         <div class="ms_dc-card">
             <div class="ms_card-img">
-                <img src="singleCard.thumb" alt="singleCard.type">
+                <img src="{{$comic -> image}}">
             </div>
-            <h5>singleCard.series</h5>
+            <h5>{{$comic -> title}}</h5>
         </div>
-
+        @endforeach
     </div>
 
 </section>
