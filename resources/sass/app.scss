@@ -106,3 +106,95 @@ div.nav-bar ul{
 
 
 }
+
+//footer
+
+section.ms_top-footer{
+    background-image: url(../assets/img/footer-bg.jpg);
+    background-size: cover;
+
+    div.container{
+        @include flex-hor-center;
+        justify-content: space-between;
+    }
+}
+
+
+
+div.ms_footer-list-menu{
+    display: flex;
+    width: 40%;
+
+    div{
+        width: calc(100% / 3);
+    }
+
+}
+
+div.footer-logo img{
+    
+
+}
+
+
+h4{
+    color: white;  
+    text-transform: uppercase;
+    font-size: 1.2rem;
+
+}
+
+ul{
+    list-style: none;
+    color: rgb(114, 111, 111);
+    margin: 15px 0;
+    padding: 0;
+
+    li{
+        margin-top: 4px;
+    }
+}
+
+section.ms_bottom-footer{
+    height: 100px;
+    background-color: $footerColor;
+    @include flex-hor-center;
+    
+
+
+}
+
+div.ms_bottom-footer-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.ms_footer-button button{
+    padding: 10px 12px;
+    text-transform: uppercase;
+    border: 2px solid $brandColor;
+    background-color: $footerColor;
+    color: white;
+}
+
+div.ms_social-icons{
+   
+    
+    span{
+        color: $brandColor;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 12px;
+
+    }
+
+    img{
+        margin: 0 8px;
+        height: 30px;
+        
+
+    }
+
+
+}

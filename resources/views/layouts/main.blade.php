@@ -19,7 +19,7 @@
     </main>
 
     <footer>
-        
+        @include('includes.footer')
     </footer>
     
 </body>
