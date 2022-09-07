@@ -61,3 +61,29 @@ div.ms_dc-card h5 {
   font-size: 0.9rem;
   width: 80%;
 }
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav div.img-cont {
+  height: 90px;
+  padding: 14px;
+}
+
+div.nav-bar ul {
+  list-style: none;
+  margin: 0;
+}
+div.nav-bar ul li {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 14px;
+}
+div.nav-bar ul li a {
+  text-decoration: none;
+  color: black;
+}

@@ -10,11 +10,17 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+         @include('includes.header')
+    </header>
 
     <main>
         @yield('main-content')
-
     </main>
+
+    <footer>
+        
+    </footer>
     
 </body>
 </html>

@@ -8,18 +8,14 @@ section.ms_main-sect {
         display: flex;
         flex-wrap: wrap;
         padding: 40px 0;
-        
     }
-
 }
 
 section.ms_bottom-main{
     background-color: $brandColor;
     
-    
     div.container{
         display: flex;
-
 
        div.ms_bottom-main-bar {
             height: 120px;
@@ -27,8 +23,6 @@ section.ms_bottom-main{
             align-items: center;
             justify-content: center;
             width: calc(100% / 5);
-            
-            
 
             div{
                 color: white;
@@ -46,10 +40,8 @@ section.ms_bottom-main{
                 font-size: 14px;
                 text-transform: uppercase;
             }
-            
         } 
     }
-        
 }
 
 section.ms_jumpo-img{
@@ -81,4 +73,36 @@ div.ms_dc-card {
         width: 80%;
 
     }
+}
+
+//header
+
+nav{
+    @include flex-hor-center;
+    justify-content: space-between;
+    
+
+    div.img-cont{
+    height: 90px;
+    padding: 14px;
+    }
+
+}
+
+div.nav-bar ul{
+    list-style: none;
+    margin: 0;
+    
+
+    li {
+        @include hor-list-setup;
+        margin: 0 14px;
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+
 }
